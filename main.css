@@ -49,7 +49,7 @@ body {
     background-color: var(--bg-color);
 }
 
-/*NAVBAR*/
+    /* NAVBAR */
 
 .navbar a:hover {
     color: var(--primary-color);
@@ -662,8 +662,19 @@ input[type="email"]:focus-within, input[type="text"]:focus-within, textarea:focu
 }
 /* ANIMATIONS */
 
-@keyframes fromtop {from{opacity: 0;margin-top: -300px}to{opacity: 1;margin-top: 0}}
+@keyframes fromtop {
+    from {
+        opacity: 0;
+        margin-top: -300px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0
+    }
+}
+
 @-webkit-keyframes fromtop {from{opacity: 0;margin-top: -300px}to{opacity: 1;margin-top: 0}}
+
 @keyframes changebg {
     0% {
         background-image: url(images/homebg.jpg);
