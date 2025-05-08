@@ -271,6 +271,7 @@ body {
     width: 100%;
     z-index: -1;
     animation: changebg 100s infinite;
+    top: 0;
 }
 
 #home::after {
